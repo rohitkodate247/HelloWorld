@@ -8,4 +8,4 @@ def word_count(text):
     return counts
 
 
-print(word_count("Fitch Fitch Rating"))
+print(word_count("MANNARINO MONTREAL MANNARINO"))

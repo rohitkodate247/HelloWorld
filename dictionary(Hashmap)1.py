@@ -1,3 +1,4 @@
+# Task: Store test results as key-value pairs
 # dictionaries (hash maps)
 
 def word_count(text):
@@ -8,5 +9,4 @@ def word_count(text):
     return counts
 
 
-print(word_count("Fitch Fitch Rating"))
-x
+print(word_count("MINNARINO MONTREAL MINNARINO"))
