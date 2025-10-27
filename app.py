@@ -1,11 +1,8 @@
 # dictionaries (hash maps)
 
-def word_count(text):
-    counts = {}
-    for word in text.split():
-        counts[word] = counts.get(word, 0) + 1
-
-    return counts
+import pytest
 
 
-print(word_count("MANNARINO MONTREAL MANNARINO"))
+@pytest.mark.parametrize("input, expected", [(2, 4), (3, 9)])
+def test_square(input, expected):
+    assert input ** 2 == expected
