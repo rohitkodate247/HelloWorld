@@ -1,0 +1,55 @@
+
+
+
+#The Reverse Light feature shall activate the reverse lights with a configured delay (5 sec) if ignition status is in RUN and reverse gear lever position is ACTIVE_confirmed or Active_notconfirmed.
+
+
+Reverse Light
+Delay 5 Seconds (If ingintion is Run)
+Verify Reverse gear lever ACTIVE_confirmed or ACTIVE_notconfirmed
+
+
+Pre Test
+1. Vehicle should be ignition ON or KeyON
+2. Parking Brake should be not be enabled
+
+Test Steps
+Expected Test Step & Actual Test Step
+1. Set the signition status to RUN - Verify if vehicle ignition status is Run
+2. Set the gear in Reverse & apply torque/accel padel - Verify if the vehicle starts moving in reverse direction
+3. Monitor Dashboard or VCU if Reverse gear lever position is ACTIVE_Confirmed - Verify if VCU displays ACTIVE_Confirmed
+
+Post Test
+1. Parking Brake should be enabled
+2. Vehicle should be ignition OFF or KeyOFF
+
+
+Python Fixtures
+Manage, Setup and  TearDown Test Steps
+
+1. Initialize the WebDriver
+2. Navigate to specific URL
+
+import pytest
+
+@pytest.fixture(scope="session")
+    def Test(score):
+        return 
+
+# Writes a list of strings to a file and then reads its content. Includes error handling for file operations.
+ 
+
+# List of Strings
+list = ['1', '2', '3']
+
+# Open the file and read contents
+
+
+# Error Handling for File Operations
+Try:
+
+
+except FileNotFoundError
+
+except ValueError
+

@@ -1,4 +1,4 @@
-
+# Write a  program to find the second largest number in a list.
 def second_largest(numbers):
     unique_numbers = list(set(numbers))  # Remove duplicates
     unique_numbers.sort(reverse=True)  # Sort in descending order

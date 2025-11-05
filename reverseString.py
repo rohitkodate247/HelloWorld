@@ -4,10 +4,7 @@ def reverse_string(s):
     return s[::-1]
 
 
-print(reverse_string("Ford Motor Company"))
+print(reverse_string("Automation"))
 
 
 # s[::-1] → Python slicing syntax that reverses the string.
-
-
-print(reverse_string("droF"))
